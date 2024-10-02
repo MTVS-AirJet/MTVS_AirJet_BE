@@ -1,4 +1,4 @@
-package com.meta.air_jet.filter;
+package com.meta.air_jet._core.filter;
 
 import jakarta.servlet.*;
 import jakarta.servlet.http.HttpServletRequest;
