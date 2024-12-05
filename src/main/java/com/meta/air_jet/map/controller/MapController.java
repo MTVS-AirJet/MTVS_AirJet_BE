@@ -23,7 +23,6 @@ import java.util.stream.Collectors;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api")
-@Transactional
 public class MapController {
     private final MapService mapService;
     private final AwsFileService awsFileService;
