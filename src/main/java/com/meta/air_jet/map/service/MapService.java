@@ -83,4 +83,8 @@ public class MapService {
         Pageable pageable = PageRequest.of(page, size, Sort.by("createAt").descending());
         return mapRepository.findAllSorted(pageable);
     }
+
+    public void deleteMap(String name) {
+        mapRepository.deleteByMapName(name);
+    }
 }
