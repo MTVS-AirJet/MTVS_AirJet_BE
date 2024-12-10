@@ -26,5 +26,5 @@ ENV AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
 COPY ${JAR_FILE} app.jar
 
 # 컨테이너 실행 명령어 설정
-ENTRYPOINT ["java","-jar","/app.jar"]
+CMD ["java","-jar","/app.jar"]
 
